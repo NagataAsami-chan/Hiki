@@ -23,4 +23,4 @@ client.on('message', message =>{
     if(command == 'welcome'){messa}
 });
 
-client.login('ODQ3Mzk1MDExOTEyOTI1MjA2.YK9cGg.8WMVwvvFpTDmT5XY9Yf-PHiie6I');
+client.login(process.env.token);
