@@ -23,4 +23,8 @@ client.on('message', message =>{
     if(command == 'welcome'){messa}
 });
 
+client.on('ready', () => {
+    console.log('Bot is Now Online & Working Fine')
+    client.user.setActivity(`hiki la mot thg ngu`, { type: "WATCHING" })
+});
 client.login(process.env.token);
