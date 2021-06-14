@@ -23,7 +23,7 @@ client.on('message', message =>{
 });
 
 client.on('ready', () => {
-    console.log('Bot is Now Online & Working Fine')
+    console.log('amogus')
     client.user.setActivity(`hiki la mot thg ngu`, { type: "WATCHING" })
 });
 client.login(process.env.token);
