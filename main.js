@@ -20,7 +20,6 @@ client.on('message', message =>{
     if(command == 'invite'){message.channel.send('invite me: https://discord.com/oauth2/authorize?client_id=847395011912925206&permissions=1074120776&scope=bot')};
     if(command == 'help'){message.channel.send('Các lệnh của tôi : `welcome botngu dam emoji invite help`')};
     if(command == 'hiki'){message.channel.send('<@613299122094735360>')}
-    if(command == 'welcome'){messa}
 });
 
 client.on('ready', () => {
